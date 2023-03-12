@@ -1,12 +1,12 @@
 # Safe-Drive-AI-based-Driver-Drowsiness-Alert-System
 •Project Duration: September 2022 to October 2022 
 
-•Summary: In this python project, We have innovated a detection mechanism using python, openCV and Dlib, where in the camera of the car dashboard will detect your face and analyse it, if the driver is found drowsy then an alarm will be played along with that a LED panel will light up to alert the nearby cars. After studying the shortcomings of the upcoming systems we have implemented a mechanism where in, if the alarm is ignored by the driver thrice the details of the driver will be sent to the nearby highway authority, police and hospitals to alert them for some upcoming accident. 
+•Summary: In this python project, We have developed a detection mechanism using python, openCV and Dlib, where in the camera of the car dashboard will detect your face and analyse it, if the driver is found drowsy then an alarm will be played along with that a LED panel will light up to alert the nearby cars. After studying the shortcomings of the upcoming systems we have implemented a mechanism where in, if the alarm is ignored by the driver thrice the details of the driver will be sent to the nearby highway authority, police and hospitals to alert them for some upcoming accident. 
 
 •Problem Statement: 21% of all fatal accidents are due to drowsy driving. 60% of adult drivers or about 168 million people have driven a vehicle while feeling drowsy in the past year. About 37% or 103 million people have fallen asleep at the wheel, according to the National Sleep Foundation's [NSF] 2005 poll.
 NHTSA estimates that in 2017, 91,000 police-reported crashes involved drowsy drivers. These crashes led to an estimated 50,000 people injured and nearly 800 deaths.
 
-•Idea/Solution: We have innovated a detection mechanism using python, openCV and Dlib, where in the camera of the car dashboard will detect your face. There are mostly two steps to detect face landmarks in an image which are given below:
+•Idea/Solution: We have developed a detection mechanism using python, openCV and Dlib, where in the camera of the car dashboard will detect your face. There are mostly two steps to detect face landmarks in an image which are given below:
   1) Face detection: Face detection is the first methods which locate a human face and return a value in x,y,w,h which is a rectangle.
   2) Face landmark: After getting the location of a face in an image, then we have to move through points inside of that rectangle. Here we are the Dlib’s 68 Facial landmark detection.
 
